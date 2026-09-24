@@ -8,5 +8,5 @@ curl -s https://gist.githubusercontent.com/StevenClontz/4445774/raw/1722a289b665
 
 OCCURRENCES=$(grep -o $SEARCH_PATTERN mobydick.txt | wc -l) 
 
-echo "The search pattern $SEARCH_PATTERN was found $OCCURRENCES time(s)" > $OUTPUT
+echo "The search pattern $SEARCH_PATTERN was found $OCCURRENCES time(s)." > $OUTPUT
 
